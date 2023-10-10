@@ -1,5 +1,2 @@
-const strictEquals = (valueA, valueB) => {
-  return Object.is(valueA, valueB);
-};
-
+const strictEquals = (valueA, valueB) => Object.is(valueA, valueB);
 export default strictEquals;
